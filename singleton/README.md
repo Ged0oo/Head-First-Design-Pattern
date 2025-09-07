@@ -44,6 +44,10 @@ ChocolateBoiler boiler2 = ChocolateBoiler.getInstance();
 // boiler1 and boiler2 refer to the same instance
 System.out.println(boiler1 == boiler2); // true
 ```
+<p align="center">
+  <img src="./static/mermaid-diagram.png" alt="System Archeticture" />
+</p>
+
 
 ## Thread Safety
 - The `getInstance()` method is synchronized to prevent race conditions in multi-threaded environments.
