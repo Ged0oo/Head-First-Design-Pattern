@@ -45,7 +45,7 @@ ChocolateBoiler boiler2 = ChocolateBoiler.getInstance();
 System.out.println(boiler1 == boiler2); // true
 ```
 <p align="center">
-  <img src="./static/mermaid-diagram.png" alt="System Archeticture" />
+  <img src="./static/mermaid-diagram.svg" alt="System Archeticture" />
 </p>
 
 
